@@ -1,2 +1,4 @@
 import _ from "lodash";
-console.log(_.last(["one", "two"]));
+import con from "./src/index.js";
+const num = ['one', 'two'];
+console.log(con(num));
